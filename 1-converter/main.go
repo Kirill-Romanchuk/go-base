@@ -10,6 +10,9 @@ func getUserInput() (USD_TO_EUR float64, USD_TO_RUB float64) {
 	return USD_TO_EUR, USD_TO_RUB
 }
 
+func calculate(value float64, currencyFrom string, currencyTo string) float64 {
+}
+
 func main() {
 	var USD_TO_EUR, USD_TO_RUB = getUserInput()
 	var EUR_TO_RUB float64 = USD_TO_RUB / USD_TO_EUR
